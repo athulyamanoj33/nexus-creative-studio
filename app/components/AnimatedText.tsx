@@ -7,7 +7,7 @@ interface AnimatedTextProps {
   text: string;
   className?: string;
   style?: React.CSSProperties;
-  tag?: string;
+  tag?: React.ElementType; 
   delay?: number;
   stagger?: number;
   scrollTrigger?: boolean;
